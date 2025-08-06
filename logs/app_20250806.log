@@ -212,3 +212,516 @@
 2025-08-06 20:25:35,602 - src.agents.orchestrator - INFO - Initializing multi-agent system...
 2025-08-06 20:25:35,602 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
 2025-08-06 20:25:35,602 - main - INFO - System initialization complete
+2025-08-06 20:42:14,350 - main - INFO - Uploading 1 documents
+2025-08-06 20:42:14,360 - src.agents.orchestrator - INFO - Processing document: /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:42:14,861 - src.agents.document_parser - INFO - Successfully parsed /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:42:15,044 - src.agents.semantic_chunker - INFO - Created 1548 semantic chunks for /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:42:27,531 - src.agents.retrieval_agent - INFO - Added 1548/1548 documents to retrieval system
+2025-08-06 20:42:27,532 - src.agents.orchestrator - INFO - Document processing completed in 13.17s
+2025-08-06 20:42:27,541 - main - INFO - Processing query: What are the key benefits covered in this policy?
+2025-08-06 20:42:27,541 - src.agents.orchestrator - INFO - Processing query: What are the key benefits covered in this policy?
+2025-08-06 20:42:27,544 - src.agents.orchestrator - INFO - Extracted entities: {}
+2025-08-06 20:42:27,544 - src.agents.retrieval_agent - INFO - Parsed query: General inquiry
+2025-08-06 20:42:27,651 - src.agents.retrieval_agent - INFO - Retrieved 0 relevant documents
+2025-08-06 20:42:27,651 - src.agents.orchestrator - INFO - Retrieved 0 relevant clauses
+2025-08-06 20:42:27,652 - src.agents.validation_agent - ERROR - Error during validation: 'str' object has no attribute 'evaluate'
+2025-08-06 20:42:27,652 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:42:27,652 - src.agents.decision_agent - INFO - Decision made: requires_review (confidence: 0.20)
+2025-08-06 20:42:27,652 - src.agents.orchestrator - INFO - Decision made: requires_review (confidence: 0.20)
+2025-08-06 20:42:27,652 - src.agents.mapping_agent - INFO - Created decision trace 7183ebbb-2d2b-40cb-b608-3e95fa8dfdc1 for decision requires_review
+2025-08-06 20:42:27,652 - src.agents.orchestrator - INFO - Query processing completed in 0.11s
+2025-08-06 20:42:44,083 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:42:44,083 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:42:53,559 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:42:53,560 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:42:53,560 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:42:53,560 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:42:53,560 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:42:53,560 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:42:53,560 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:42:53,560 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:42:53,585 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:42:53,585 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:42:57,093 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:42:57,093 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:42:57,093 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:42:57,093 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:42:57,093 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:42:57,093 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:42:57,093 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:42:57,094 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:42:57,097 - main - INFO - Starting LLM Document Processing System...
+2025-08-06 20:42:57,097 - src.agents.orchestrator - INFO - Initializing multi-agent system...
+2025-08-06 20:42:57,097 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
+2025-08-06 20:42:57,097 - main - INFO - System initialization complete
+2025-08-06 20:43:36,695 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:43:36,696 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:43:44,864 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:43:44,864 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:43:44,864 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:43:44,865 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:43:44,865 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:43:44,865 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:43:44,865 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:43:44,865 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:43:45,592 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:43:45,592 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:43:58,791 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:43:58,791 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:43:58,791 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:43:58,791 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:43:58,791 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:43:58,791 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:43:58,791 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:43:58,791 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:43:58,813 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:43:58,813 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:44:06,340 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:44:06,340 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:44:06,340 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:44:06,340 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:44:06,340 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:44:06,340 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:44:06,340 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:44:06,340 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:44:06,344 - main - INFO - Starting LLM Document Processing System...
+2025-08-06 20:44:06,344 - src.agents.orchestrator - INFO - Initializing multi-agent system...
+2025-08-06 20:44:06,344 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
+2025-08-06 20:44:06,344 - main - INFO - System initialization complete
+2025-08-06 20:44:08,657 - main - INFO - Uploading 1 documents
+2025-08-06 20:44:08,662 - src.agents.orchestrator - INFO - Processing document: /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:44:09,149 - src.agents.document_parser - INFO - Successfully parsed /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:44:09,338 - src.agents.semantic_chunker - INFO - Created 1548 semantic chunks for /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:44:22,248 - src.agents.retrieval_agent - INFO - Added 1548/1548 documents to retrieval system
+2025-08-06 20:44:22,248 - src.agents.orchestrator - INFO - Document processing completed in 13.59s
+2025-08-06 20:44:22,258 - main - INFO - Processing query: What benefits are covered under this insurance policy?
+2025-08-06 20:44:22,258 - src.agents.orchestrator - INFO - Processing query: What benefits are covered under this insurance policy?
+2025-08-06 20:44:22,261 - src.agents.orchestrator - INFO - Extracted entities: {}
+2025-08-06 20:44:22,261 - src.agents.retrieval_agent - INFO - Parsed query: General inquiry
+2025-08-06 20:44:22,368 - src.agents.retrieval_agent - INFO - Retrieved 0 relevant documents
+2025-08-06 20:44:22,368 - src.agents.orchestrator - INFO - Retrieved 0 relevant clauses
+2025-08-06 20:44:22,369 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:44:22,369 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.40)
+2025-08-06 20:44:22,369 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.40)
+2025-08-06 20:44:22,369 - src.agents.mapping_agent - INFO - Created decision trace 00371cf4-b457-46a4-94c6-5d52a602ca24 for decision rejected
+2025-08-06 20:44:22,369 - src.agents.orchestrator - INFO - Query processing completed in 0.11s
+2025-08-06 20:44:51,759 - main - INFO - Processing query: coverage benefits policy terms conditions
+2025-08-06 20:44:51,760 - src.agents.orchestrator - INFO - Processing query: coverage benefits policy terms conditions
+2025-08-06 20:44:51,760 - src.agents.orchestrator - INFO - Extracted entities: {}
+2025-08-06 20:44:51,760 - src.agents.retrieval_agent - INFO - Parsed query: General inquiry
+2025-08-06 20:44:51,820 - src.agents.retrieval_agent - INFO - Retrieved 0 relevant documents
+2025-08-06 20:44:51,820 - src.agents.orchestrator - INFO - Retrieved 0 relevant clauses
+2025-08-06 20:44:51,820 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:44:51,821 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.40)
+2025-08-06 20:44:51,821 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.40)
+2025-08-06 20:44:51,821 - src.agents.mapping_agent - INFO - Created decision trace 90bfadfb-4eea-498d-a893-864d19924842 for decision rejected
+2025-08-06 20:44:51,821 - src.agents.orchestrator - INFO - Query processing completed in 0.06s
+2025-08-06 20:45:35,527 - main - INFO - Processing query: policy document content information text
+2025-08-06 20:45:35,528 - src.agents.orchestrator - INFO - Processing query: policy document content information text
+2025-08-06 20:45:35,528 - src.agents.orchestrator - INFO - Extracted entities: {}
+2025-08-06 20:45:35,528 - src.agents.retrieval_agent - INFO - Parsed query: General inquiry
+2025-08-06 20:45:35,575 - src.agents.retrieval_agent - INFO - Retrieved 0 relevant documents
+2025-08-06 20:45:35,575 - src.agents.orchestrator - INFO - Retrieved 0 relevant clauses
+2025-08-06 20:45:35,575 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:45:35,575 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.40)
+2025-08-06 20:45:35,575 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.40)
+2025-08-06 20:45:35,575 - src.agents.mapping_agent - INFO - Created decision trace 6d44c9a8-246a-48b7-ba9f-def525ecccdf for decision rejected
+2025-08-06 20:45:35,576 - src.agents.orchestrator - INFO - Query processing completed in 0.05s
+2025-08-06 20:46:05,770 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:46:05,770 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:46:14,385 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:46:14,385 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:46:14,385 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:46:14,386 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:46:14,386 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:46:14,386 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:46:14,386 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:46:14,386 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:46:15,034 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:46:15,035 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:46:23,244 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:46:23,244 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:46:23,244 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:46:23,244 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:46:23,244 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:46:23,244 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:46:23,244 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:46:23,244 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:46:23,264 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:46:23,264 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:46:27,383 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:46:27,383 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:46:27,383 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:46:27,383 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:46:27,383 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:46:27,383 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:46:27,384 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:46:27,384 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:46:27,389 - main - INFO - Starting LLM Document Processing System...
+2025-08-06 20:46:27,389 - src.agents.orchestrator - INFO - Initializing multi-agent system...
+2025-08-06 20:46:27,389 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
+2025-08-06 20:46:27,389 - main - INFO - System initialization complete
+2025-08-06 20:46:42,316 - main - INFO - Uploading 1 documents
+2025-08-06 20:46:42,323 - src.agents.orchestrator - INFO - Processing document: /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:46:42,834 - src.agents.document_parser - INFO - Successfully parsed /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:46:43,054 - src.agents.semantic_chunker - INFO - Created 1548 semantic chunks for /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:46:56,606 - src.agents.retrieval_agent - INFO - Added 1548/1548 documents to retrieval system
+2025-08-06 20:46:56,606 - src.agents.orchestrator - INFO - Document processing completed in 14.28s
+2025-08-06 20:46:56,619 - main - INFO - Processing query: insurance coverage medical treatment benefits
+2025-08-06 20:46:56,619 - src.agents.orchestrator - INFO - Processing query: insurance coverage medical treatment benefits
+2025-08-06 20:46:56,622 - src.agents.orchestrator - INFO - Extracted entities: {'procedure': 'treatment'}
+2025-08-06 20:46:56,623 - src.agents.retrieval_agent - INFO - Parsed query: Procedure: treatment
+2025-08-06 20:46:56,758 - src.agents.retrieval_agent - INFO - Retrieved 0 relevant documents
+2025-08-06 20:46:56,758 - src.agents.orchestrator - INFO - Retrieved 0 relevant clauses
+2025-08-06 20:46:56,759 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:46:56,759 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.40)
+2025-08-06 20:46:56,759 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.40)
+2025-08-06 20:46:56,759 - src.agents.mapping_agent - INFO - Created decision trace 6fecabc3-6378-4fe9-a49c-093d73e4fd2c for decision rejected
+2025-08-06 20:46:56,759 - src.agents.orchestrator - INFO - Query processing completed in 0.14s
+2025-08-06 20:47:20,776 - main - INFO - Processing query: the
+2025-08-06 20:47:20,776 - src.agents.orchestrator - INFO - Processing query: the
+2025-08-06 20:47:20,776 - src.agents.orchestrator - INFO - Extracted entities: {}
+2025-08-06 20:47:20,776 - src.agents.retrieval_agent - INFO - Parsed query: General inquiry
+2025-08-06 20:47:20,823 - src.agents.retrieval_agent - INFO - Retrieved 0 relevant documents
+2025-08-06 20:47:20,824 - src.agents.orchestrator - INFO - Retrieved 0 relevant clauses
+2025-08-06 20:47:20,824 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:47:20,824 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.40)
+2025-08-06 20:47:20,824 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.40)
+2025-08-06 20:47:20,824 - src.agents.mapping_agent - INFO - Created decision trace 240352aa-ec21-4b07-9441-a6582e05920b for decision rejected
+2025-08-06 20:47:20,824 - src.agents.orchestrator - INFO - Query processing completed in 0.05s
+2025-08-06 20:48:58,569 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:48:58,569 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:49:06,913 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:49:06,913 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:49:15,959 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:49:15,959 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:49:15,959 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:49:15,959 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:49:15,960 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:49:15,960 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:49:15,960 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:49:15,960 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:49:15,981 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:49:15,981 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:49:19,193 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:49:19,194 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:49:19,194 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:49:19,194 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:49:19,194 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:49:19,194 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:49:19,194 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:49:19,194 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:49:19,197 - main - INFO - Starting LLM Document Processing System...
+2025-08-06 20:49:19,197 - src.agents.orchestrator - INFO - Initializing multi-agent system...
+2025-08-06 20:49:19,197 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
+2025-08-06 20:49:19,197 - main - INFO - System initialization complete
+2025-08-06 20:49:41,726 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:49:41,727 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:49:51,055 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:49:51,055 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:49:51,056 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:49:51,056 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:49:51,056 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:49:51,056 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:49:51,056 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:49:51,056 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:50:37,315 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:50:37,315 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:50:46,255 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:50:46,255 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:50:46,255 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:50:46,255 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:50:46,255 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:50:46,255 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:50:46,255 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:50:46,255 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:51:22,071 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:51:22,072 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:51:35,298 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:51:35,298 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:51:35,298 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:51:35,298 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:51:35,298 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:51:35,298 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:51:35,298 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:51:35,298 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:51:36,104 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:51:36,104 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:51:50,097 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:51:50,097 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:51:50,097 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:51:50,097 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:51:50,097 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:51:50,097 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:51:50,097 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:51:50,097 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:51:50,131 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:51:50,131 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:51:57,456 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:51:57,456 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:51:57,456 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:51:57,456 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:51:57,457 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:51:57,457 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:51:57,457 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:51:57,457 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:51:57,463 - main - INFO - Starting LLM Document Processing System...
+2025-08-06 20:51:57,463 - src.agents.orchestrator - INFO - Initializing multi-agent system...
+2025-08-06 20:51:57,463 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
+2025-08-06 20:51:57,463 - main - INFO - System initialization complete
+2025-08-06 20:52:33,543 - main - INFO - Uploading 1 documents
+2025-08-06 20:52:33,548 - src.agents.orchestrator - INFO - Processing document: /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:52:34,085 - src.agents.document_parser - INFO - Successfully parsed /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:52:34,300 - src.agents.semantic_chunker - INFO - Created 1548 semantic chunks for /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:52:50,762 - src.agents.retrieval_agent - INFO - Added 1548/1548 documents to retrieval system
+2025-08-06 20:52:50,762 - src.agents.orchestrator - INFO - Document processing completed in 17.21s
+2025-08-06 20:53:00,617 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:53:00,618 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:53:02,515 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:53:02,515 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:53:16,780 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:53:16,780 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:53:16,780 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:53:16,780 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:53:16,780 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:53:16,780 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:53:16,780 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:53:16,780 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:53:16,807 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:53:16,808 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:53:17,955 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:53:17,956 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:53:17,956 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:53:17,956 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:53:17,956 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:53:17,956 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:53:17,956 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:53:17,956 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:53:17,986 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:53:17,987 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:53:24,823 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:53:24,823 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:53:24,823 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:53:24,823 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:53:24,823 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:53:24,823 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:53:24,824 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:53:24,824 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:53:24,830 - main - INFO - Starting LLM Document Processing System...
+2025-08-06 20:53:24,830 - src.agents.orchestrator - INFO - Initializing multi-agent system...
+2025-08-06 20:53:24,830 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
+2025-08-06 20:53:24,830 - main - INFO - System initialization complete
+2025-08-06 20:53:26,175 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:53:26,175 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:53:26,176 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:53:26,176 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:53:26,176 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:53:26,176 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:53:26,176 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:53:26,176 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:53:26,182 - main - INFO - Starting LLM Document Processing System...
+2025-08-06 20:53:26,182 - src.agents.orchestrator - INFO - Initializing multi-agent system...
+2025-08-06 20:53:26,182 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
+2025-08-06 20:53:26,182 - main - INFO - System initialization complete
+2025-08-06 20:53:26,219 - main - INFO - Uploading 1 documents
+2025-08-06 20:53:26,224 - src.agents.orchestrator - INFO - Processing document: /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:53:26,838 - src.agents.document_parser - INFO - Successfully parsed /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:53:27,110 - src.agents.semantic_chunker - INFO - Created 1548 semantic chunks for /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:53:43,964 - src.agents.retrieval_agent - INFO - Added 1548/1548 documents to retrieval system
+2025-08-06 20:53:43,964 - src.agents.orchestrator - INFO - Document processing completed in 17.74s
+2025-08-06 20:53:43,976 - main - INFO - Processing query: insurance coverage
+2025-08-06 20:53:43,977 - src.agents.orchestrator - INFO - Processing query: insurance coverage
+2025-08-06 20:53:43,980 - src.agents.orchestrator - INFO - Extracted entities: {}
+2025-08-06 20:53:43,981 - src.agents.retrieval_agent - INFO - Parsed query: General inquiry
+2025-08-06 20:53:44,208 - src.agents.retrieval_agent - INFO - Retrieved 10 relevant documents
+2025-08-06 20:53:44,208 - src.agents.orchestrator - INFO - Retrieved 10 relevant clauses
+2025-08-06 20:53:44,209 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:53:44,209 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:53:44,210 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:53:44,210 - src.agents.mapping_agent - INFO - Created decision trace 4b578bdb-4600-490e-9263-950217ad2b8e for decision rejected
+2025-08-06 20:53:44,211 - src.agents.orchestrator - INFO - Query processing completed in 0.23s
+2025-08-06 20:53:44,216 - main - INFO - Processing query: medical treatment
+2025-08-06 20:53:44,216 - src.agents.orchestrator - INFO - Processing query: medical treatment
+2025-08-06 20:53:44,217 - src.agents.orchestrator - INFO - Extracted entities: {'procedure': 'treatment'}
+2025-08-06 20:53:44,217 - src.agents.retrieval_agent - INFO - Parsed query: Procedure: treatment
+2025-08-06 20:53:44,267 - src.agents.retrieval_agent - INFO - Retrieved 10 relevant documents
+2025-08-06 20:53:44,267 - src.agents.orchestrator - INFO - Retrieved 10 relevant clauses
+2025-08-06 20:53:44,268 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:53:44,268 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:53:44,268 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:53:44,269 - src.agents.mapping_agent - INFO - Created decision trace 5ac07e7d-313c-4a86-ad8a-da7794dbd4f9 for decision rejected
+2025-08-06 20:53:44,269 - src.agents.orchestrator - INFO - Query processing completed in 0.05s
+2025-08-06 20:53:44,273 - main - INFO - Processing query: hospital stay benefits
+2025-08-06 20:53:44,274 - src.agents.orchestrator - INFO - Processing query: hospital stay benefits
+2025-08-06 20:53:44,274 - src.agents.orchestrator - INFO - Extracted entities: {}
+2025-08-06 20:53:44,274 - src.agents.retrieval_agent - INFO - Parsed query: General inquiry
+2025-08-06 20:53:44,326 - src.agents.retrieval_agent - INFO - Retrieved 10 relevant documents
+2025-08-06 20:53:44,326 - src.agents.orchestrator - INFO - Retrieved 10 relevant clauses
+2025-08-06 20:53:44,326 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:53:44,327 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:53:44,327 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:53:44,328 - src.agents.mapping_agent - INFO - Created decision trace 26212749-ec6a-4f86-874b-2b87691d638e for decision rejected
+2025-08-06 20:53:44,328 - src.agents.orchestrator - INFO - Query processing completed in 0.05s
+2025-08-06 20:53:44,333 - main - INFO - Processing query: policy benefits
+2025-08-06 20:53:44,333 - src.agents.orchestrator - INFO - Processing query: policy benefits
+2025-08-06 20:53:44,334 - src.agents.orchestrator - INFO - Extracted entities: {}
+2025-08-06 20:53:44,334 - src.agents.retrieval_agent - INFO - Parsed query: General inquiry
+2025-08-06 20:53:44,388 - src.agents.retrieval_agent - INFO - Retrieved 10 relevant documents
+2025-08-06 20:53:44,388 - src.agents.orchestrator - INFO - Retrieved 10 relevant clauses
+2025-08-06 20:53:44,388 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:53:44,389 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:53:44,389 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:53:44,389 - src.agents.mapping_agent - INFO - Created decision trace 8cf6b22e-70c9-475d-986d-29d12b5e5d06 for decision rejected
+2025-08-06 20:53:44,389 - src.agents.orchestrator - INFO - Query processing completed in 0.06s
+2025-08-06 20:53:44,394 - main - INFO - Processing query: claim procedures
+2025-08-06 20:53:44,394 - src.agents.orchestrator - INFO - Processing query: claim procedures
+2025-08-06 20:53:44,394 - src.agents.orchestrator - INFO - Extracted entities: {}
+2025-08-06 20:53:44,395 - src.agents.retrieval_agent - INFO - Parsed query: General inquiry
+2025-08-06 20:53:44,452 - src.agents.retrieval_agent - INFO - Retrieved 10 relevant documents
+2025-08-06 20:53:44,453 - src.agents.orchestrator - INFO - Retrieved 10 relevant clauses
+2025-08-06 20:53:44,453 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:53:44,453 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:53:44,453 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:53:44,454 - src.agents.mapping_agent - INFO - Created decision trace 29aa06d8-7f55-4b55-9b1c-3e496dab0249 for decision rejected
+2025-08-06 20:53:44,454 - src.agents.orchestrator - INFO - Query processing completed in 0.06s
+2025-08-06 20:54:39,216 - main - INFO - Processing query: insurance coverage
+2025-08-06 20:54:39,216 - src.agents.orchestrator - INFO - Processing query: insurance coverage
+2025-08-06 20:54:39,216 - src.agents.orchestrator - INFO - Extracted entities: {}
+2025-08-06 20:54:39,216 - src.agents.retrieval_agent - INFO - Parsed query: General inquiry
+2025-08-06 20:54:39,266 - src.agents.retrieval_agent - INFO - Retrieved 10 relevant documents
+2025-08-06 20:54:39,266 - src.agents.orchestrator - INFO - Retrieved 10 relevant clauses
+2025-08-06 20:54:39,266 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:54:39,267 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:54:39,267 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.47)
+2025-08-06 20:54:39,267 - src.agents.mapping_agent - INFO - Created decision trace bbe0c5fc-bbad-4249-a4c6-695686aeca8b for decision rejected
+2025-08-06 20:54:39,267 - src.agents.orchestrator - INFO - Query processing completed in 0.05s
+2025-08-06 20:55:23,470 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:55:23,470 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:55:24,664 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:55:24,665 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:55:37,631 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:55:37,631 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:55:37,631 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:55:37,632 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:55:37,632 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:55:37,632 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:55:37,632 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:55:37,632 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:55:37,656 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:55:37,656 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:55:39,092 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:55:39,092 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:55:39,092 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:55:39,093 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:55:39,093 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:55:39,093 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:55:39,093 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:55:39,093 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:55:39,114 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 20:55:39,115 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 20:55:45,174 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:55:45,174 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:55:45,174 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:55:45,174 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:55:45,174 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:55:45,174 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:55:45,174 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:55:45,174 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:55:45,179 - main - INFO - Starting LLM Document Processing System...
+2025-08-06 20:55:45,180 - src.agents.orchestrator - INFO - Initializing multi-agent system...
+2025-08-06 20:55:45,180 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
+2025-08-06 20:55:45,180 - main - INFO - System initialization complete
+2025-08-06 20:55:47,108 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 20:55:47,109 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 20:55:47,109 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 20:55:47,109 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 20:55:47,109 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 20:55:47,109 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 20:55:47,109 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 20:55:47,109 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 20:55:47,113 - main - INFO - Starting LLM Document Processing System...
+2025-08-06 20:55:47,113 - src.agents.orchestrator - INFO - Initializing multi-agent system...
+2025-08-06 20:55:47,114 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
+2025-08-06 20:55:47,114 - main - INFO - System initialization complete
+2025-08-06 20:56:11,571 - main - INFO - Uploading 1 documents
+2025-08-06 20:56:11,575 - src.agents.orchestrator - INFO - Processing document: /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:56:12,120 - src.agents.document_parser - INFO - Successfully parsed /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:56:12,346 - src.agents.semantic_chunker - INFO - Created 1548 semantic chunks for /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 20:56:27,719 - src.agents.retrieval_agent - INFO - Added 1548/1548 documents to retrieval system
+2025-08-06 20:56:27,720 - src.agents.orchestrator - INFO - Document processing completed in 16.14s
+2025-08-06 20:56:27,732 - main - INFO - Processing query: insurance coverage medical treatment
+2025-08-06 20:56:27,732 - src.agents.orchestrator - INFO - Processing query: insurance coverage medical treatment
+2025-08-06 20:56:27,735 - src.agents.orchestrator - INFO - Extracted entities: {'procedure': 'treatment'}
+2025-08-06 20:56:27,735 - src.agents.retrieval_agent - INFO - Parsed query: Procedure: treatment
+2025-08-06 20:56:27,860 - src.agents.retrieval_agent - INFO - Retrieved 10 relevant documents
+2025-08-06 20:56:27,860 - src.agents.orchestrator - INFO - Retrieved 10 relevant clauses
+2025-08-06 20:56:27,860 - src.agents.orchestrator - INFO - Validation completed - Valid: False
+2025-08-06 20:56:27,861 - src.agents.decision_agent - INFO - Decision made: rejected (confidence: 0.57)
+2025-08-06 20:56:27,861 - src.agents.orchestrator - INFO - Decision made: rejected (confidence: 0.57)
+2025-08-06 20:56:27,862 - src.agents.mapping_agent - INFO - Created decision trace ddea4247-c951-4df9-a784-b8ae57fdf381 for decision rejected
+2025-08-06 20:56:27,862 - src.agents.orchestrator - INFO - Query processing completed in 0.13s
+2025-08-06 21:00:18,338 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 21:00:18,338 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 21:00:18,793 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 21:00:18,793 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 21:00:30,970 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 21:00:30,970 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 21:00:30,970 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 21:00:30,970 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 21:00:30,970 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 21:00:30,971 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 21:00:30,971 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 21:00:30,971 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 21:00:30,987 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 21:00:30,988 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 21:00:31,611 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 21:00:31,611 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 21:00:31,611 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 21:00:31,611 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 21:00:31,611 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 21:00:31,611 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 21:00:31,611 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 21:00:31,611 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 21:00:31,638 - src.agents.document_parser - INFO - Document Parser Agent initialized
+2025-08-06 21:00:31,639 - src.agents.semantic_chunker - INFO - Semantic Chunker Agent initialized
+2025-08-06 21:00:38,371 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 21:00:38,372 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 21:00:38,372 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 21:00:38,372 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 21:00:38,372 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 21:00:38,372 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 21:00:38,372 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 21:00:38,372 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 21:00:38,375 - main - INFO - Starting LLM Document Processing System...
+2025-08-06 21:00:38,375 - src.agents.orchestrator - INFO - Initializing multi-agent system...
+2025-08-06 21:00:38,376 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
+2025-08-06 21:00:38,376 - main - INFO - System initialization complete
+2025-08-06 21:00:39,652 - src.agents.retrieval_agent - INFO - Sentence transformer model loaded successfully
+2025-08-06 21:00:39,652 - src.agents.retrieval_agent - INFO - Query Parser initialized
+2025-08-06 21:00:39,652 - src.agents.retrieval_agent - INFO - Retrieval Agent initialized
+2025-08-06 21:00:39,653 - src.agents.validation_agent - INFO - Initialized 7 default rules
+2025-08-06 21:00:39,653 - src.agents.validation_agent - INFO - Validation Agent initialized
+2025-08-06 21:00:39,653 - src.agents.decision_agent - INFO - Decision Agent initialized
+2025-08-06 21:00:39,653 - src.agents.mapping_agent - INFO - Mapping Agent initialized
+2025-08-06 21:00:39,653 - src.agents.orchestrator - INFO - Agent Orchestrator initialized with all agents
+2025-08-06 21:00:39,657 - main - INFO - Starting LLM Document Processing System...
+2025-08-06 21:00:39,657 - src.agents.orchestrator - INFO - Initializing multi-agent system...
+2025-08-06 21:00:39,657 - src.agents.orchestrator - INFO - Multi-agent system initialized successfully
+2025-08-06 21:00:39,657 - main - INFO - System initialization complete
+2025-08-06 21:03:23,511 - main - INFO - Uploading 1 documents
+2025-08-06 21:03:23,516 - src.agents.orchestrator - INFO - Processing document: /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 21:03:23,973 - src.agents.document_parser - INFO - Successfully parsed /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 21:03:24,161 - src.agents.semantic_chunker - INFO - Created 1548 semantic chunks for /tmp/CHOTGDP23004V012223.pdf
+2025-08-06 21:03:36,645 - src.agents.retrieval_agent - INFO - Added 1548/1548 documents to retrieval system
+2025-08-06 21:03:36,645 - src.agents.orchestrator - INFO - Document processing completed in 13.13s
+2025-08-06 21:03:36,656 - main - INFO - Processing query: 46-year-old male, knee surgery in Pune, 3-month-old insurance policy
+2025-08-06 21:03:36,656 - src.agents.orchestrator - INFO - Processing query: 46-year-old male, knee surgery in Pune, 3-month-old insurance policy
+2025-08-06 21:03:36,659 - src.agents.orchestrator - INFO - Extracted entities: {'age': '46', 'gender': 'male', 'procedure': ['knee', 'surgery'], 'location': ['old male', 'knee surgery in Pune'], 'policy_duration': '3', 'amount': ['46', '3']}
+2025-08-06 21:03:36,659 - src.agents.retrieval_agent - INFO - Parsed query: Age: 46 | Gender: male | Procedure: ['knee', 'surgery'] | Location: ['old male', 'knee surgery in Pune'] | Policy Duration: 3
+2025-08-06 21:03:36,713 - src.agents.retrieval_agent - INFO - Retrieved 10 relevant documents
+2025-08-06 21:03:36,713 - src.agents.orchestrator - INFO - Retrieved 10 relevant clauses
+2025-08-06 21:03:36,714 - src.agents.orchestrator - INFO - Validation completed - Valid: True
+2025-08-06 21:03:36,714 - src.agents.decision_agent - INFO - Decision made: approved (confidence: 0.97)
+2025-08-06 21:03:36,714 - src.agents.orchestrator - INFO - Decision made: approved (confidence: 0.97)
+2025-08-06 21:03:36,715 - src.agents.mapping_agent - INFO - Created decision trace 4f33f8f6-41fd-4095-b224-a6042bc6ff9f for decision approved
+2025-08-06 21:03:36,715 - src.agents.orchestrator - INFO - Query processing completed in 0.06s

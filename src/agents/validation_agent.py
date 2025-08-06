@@ -279,9 +279,12 @@ class ValidationAgent:
             validation_details.update(clause_validation)
             
             # Determine overall validity
-            critical_violations = [rule for rule in violated_rules 
-                                 if any(r.rule_id in ['excluded_procedures', 'age_limit'] 
-                                       and not rule.evaluate(entities)[0] for r in self.rules)]
+            critical_violations = []
+            for rule_name in violated_rules:
+                # Find the actual rule object
+                rule_obj = next((r for r in self.rules if r.name == rule_name), None)
+                if rule_obj and rule_obj.rule_id in ['excluded_procedures', 'age_limit']:
+                    critical_violations.append(rule_name)
             
             is_valid = len(critical_violations) == 0
             

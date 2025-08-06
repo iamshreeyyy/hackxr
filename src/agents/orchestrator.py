@@ -11,12 +11,14 @@ import logging
 from src.utils.logger import setup_logger
 from src.agents.document_parser import DocumentParserAgent
 from src.agents.semantic_chunker import SemanticChunkerAgent
-from src.agents.retrieval_agent import RetrievalAgent
+from src.agents.retrieval_agent import RetrievalAgent, RetrievalConfig
 from src.agents.validation_agent import ValidationAgent
 from src.agents.decision_agent import DecisionAgent
 from src.agents.mapping_agent import MappingAgent
+from src.config import get_settings
 
 logger = setup_logger(__name__)
+settings = get_settings()
 
 class AgentOrchestrator:
     """
@@ -28,7 +30,17 @@ class AgentOrchestrator:
         # Initialize all agents
         self.document_parser = DocumentParserAgent()
         self.semantic_chunker = SemanticChunkerAgent()
-        self.retrieval_agent = RetrievalAgent()
+        
+        # Create retrieval config from settings
+        retrieval_config = RetrievalConfig(
+            dense_weight=settings.dense_weight,
+            sparse_weight=settings.sparse_weight,
+            max_results=settings.max_results,
+            similarity_threshold=settings.similarity_threshold,
+            rerank_results=True
+        )
+        self.retrieval_agent = RetrievalAgent(retrieval_config)
+        
         self.validation_agent = ValidationAgent()
         self.decision_agent = DecisionAgent()
         self.mapping_agent = MappingAgent()
