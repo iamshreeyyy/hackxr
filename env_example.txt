@@ -1,0 +1,29 @@
+# Environment Configuration
+# Copy this to .env and fill in your values
+
+# OpenAI API Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+
+# System Configuration
+LOG_LEVEL=INFO
+MAX_FILE_SIZE_MB=50
+MAX_CHUNK_SIZE=512
+MIN_CHUNK_SIZE=50
+OVERLAP_SIZE=50
+
+# Vector Search Configuration
+DENSE_WEIGHT=0.7
+SPARSE_WEIGHT=0.3
+SIMILARITY_THRESHOLD=0.6
+MAX_RESULTS=10
+
+# Validation Configuration
+DEFAULT_AGE_MIN=18
+DEFAULT_AGE_MAX=80
+DEFAULT_WAITING_PERIOD_DAYS=90
+DEFAULT_MAX_CLAIM_AMOUNT=500000
+
+# Server Configuration
+HOST=0.0.0.0
+PORT=8000
+RELOAD=true
